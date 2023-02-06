@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2022.2.22)  2 FEB 2023 14:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2022.2.22)  2 FEB 2023 14:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -217,7 +217,7 @@ Class revtex4-2 Info: cite was not loaded (OK!) on input line 11.
 Class revtex4-2 Info: mcite was not loaded (OK!) on input line 11.
 Class revtex4-2 Info: multicol was not loaded (OK!) on input line 11.
 
-No file Cavendish_Corbin_Rochelle.aux.
+(./Cavendish_Corbin_Rochelle.aux)
 \openout1 = `Cavendish_Corbin_Rochelle.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
@@ -234,6 +234,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
+
 (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count280
@@ -261,25 +262,22 @@ e
 
 No file Cavendish_Corbin_Rochelle.bbl.
 [1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./Cavendish_Corbin_Rochelle.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+(./Cavendish_Corbin_Rochelle.aux) ) 
 Here is how much of TeX's memory you used:
- 4767 strings out of 478278
- 67800 string characters out of 5846547
- 376234 words of memory out of 5000000
+ 4769 strings out of 478278
+ 67860 string characters out of 5846547
+ 376277 words of memory out of 5000000
  22961 multiletter control sequences out of 15000+600000
  471270 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,6n,77p,331b,169s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><
-/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
-sr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/
-local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/lo
-cal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+</usr/local/texlive/2021/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmti9.pfb>
 Output written on Cavendish_Corbin_Rochelle.pdf (1 page, 76815 bytes).
 PDF statistics:
  38 PDF objects out of 1000 (max. 8388607)
