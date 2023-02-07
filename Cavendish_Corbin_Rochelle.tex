@@ -14,7 +14,7 @@
 %\end{abstract}
 
 
-\title{Measuring the Speed of Light Using a Rotating Mirror}
+\title{Measuring the Universal Gravitation Constant with the Cavendish Balance}
 \author{C. T. Rochelle}
 \email{ctr233@msstate.edu}
 \author{K. J. Grimes}
@@ -26,28 +26,116 @@
 
 \section{Introduction}\label{Intro}
 % Lead Up to Creation
-One of the most important constants in all domains of Physics is the Universal Gravitation constant. 
-It is used to determine the orbits of planets and galaxies as well as interactions between the smallest particles in the universe.
+One of the most important constants in all domains of physics is the Universal Gravitation constant. 
+It is used to determine the orbits of planets and galaxies as well as interactions between the smallest known particles.
 Since every single object in the universe is subject to this fundamental force, its precise calculation is very important.
-This has led to many physicists and scientists trying to obtain smaller uncertainties and higher precision
+This has led to many physicists and scientists trying to obtain smaller uncertainties and higher precision over the decades since its formulation. 
+
+The first measurement for the Universal Gravitation constant was in 1789 by Lord Henry Cavendish \cite{class}, whose name the instrument used in this experiment was named after. 
+He used the design and methods laid out by the astronomer John Michell, who passed a few years prior before he could complete the experiment himself \cite{birtanica}. 
+While this was the first experimental measure of the gravitational constant, it was not intended to be. 
+Cavendish and Michell intended it to measure the density of the Earth, which was later extrapolated to determine the measure of the constant \cite{britanica}.
+This experiment was impactful not only because it measured the average density of the Earth accurately, but also because it showed that all atoms in the universe were subject to the laws of gravity, all with the same constant. 
 
 
 \section{Theory}\label{Theory}
-% Derivation of Formula 
+% Explanation of Inner Workings
+In the Cavendish experiment, a torsion balance is used to measure the impact of the gravitation constant on the torque of the wire holding two smaller masses, being pulled toward two larger masses. 
+The goal of this experiment is to convert the measure of torque in the system to arrive at our value. 
+To do this, we must derive a formulation to take that torque and other known properties of the system to calculate the constant of gravitation. 
 
+% Derivation of Formula 
+We will start with the equation of torque: 
+\begin{equation} \label{torque}
+\tau = F \cross d
+\end{equation}
+where $\tau$ is the torque, $F$ is force, and $d$ is the distance from the center the force is being applied. 
+Since there are two masses at the same distance away from center, the torque of the system is twice the regular formula.
+The force we are trying to measure is that of the gravitational constant, which is $F_G=\frac{G M m}{r^2}$, where $r$ is the distance between the centers of the larger and smaller masses.
+Making these changes to equation \ref{torque}, we get:
+\begin{equation}\label{tauG}
+\tau_G=2\frac{G M m}{r^2} d
+\end{equation}
+Another equation for $\tau_G$, which we will equate to \ref{tauG}, is the restoring torque from the string connecting the anchor point at the top of the device to the rotational element. 
+It is given by: 
+\begin{equation}
+\tau_{res}=k\alpha
+\end{equation}
+where $k$ is the torsion constant of the string and $\alpha$ is the rotational acceleration. 
+
+We now have the main equation to solve for $G$:
+\begin{equation}
+G=\frac{k\alpha r^2}{2M m d}
+\end{equation}
+It is easy to see how we would find $r$, $M$, $m$, and $d$, but $k$ and $\alpha$ require some some extra work.
+We can measure both but looking at the oscillations of the rotational element while under the influence of the gravitational force of the large mass.
+
+We know from classical mechanics that:
+\begin{equation}
+\tau_{res}=k\theta=I\ddot{\theta}
+\end{equation}
+We know that $\dot{\theta} = \omega$, so we can solve for k:
+\begin{equation}
+k=I\omega^2
+\end{equation}.
+Looking at the equation for the damped harmonic oscillator, we see we can find $\omega$ and $\alpha$:
+\begin{equation}
+\theta = Ae^{-\gamma t} \cos{(t\sqrt{\omega^2-\gamma^2}+\phi)}+\alpha
+\end{equation}
+where $A$ is the initial amplitude of oscillation, $\gamma$ is the dampening coefficient, $\phi$ is the offset angle, and $t$ is the time.
+We obtain these values by fitting the data to a known function to determine $\omega$ and $\alpha$.
+
+The last needed value that isn't measured directly is the inertia of the bar. 
+This value is calculated by first calculating the inertia as if the bar had no cut-outs, then subtracting the inertias of the missing sections. 
+
+Having done all of this, we will get an accurate answer for the gravitational constant:
+\begin{equation}
+G=\frac{I\omega^2\alpha r^2}{2M m d}
+\end{equation}
 
 \section{Experiment}
 % What did you do?
+This experiment begins by obtaining accurate measurements of the masses of all four masses and their diameters. 
+Next, measure dimensions of the apparatus, namely: the distance between glass plates, thickness of the plates, and distances between the inner edges of the slots for the glass plates.
+Lastly measure the length of the tungsten filament from the anchor point on the top of the apparatus to the connection of the rotational element. 
+This concludes the measurements of the equipment. 
 
 % Schematic
+This section involves taking the data with the Cavendish Balance, pictured in figure \ref{bal}.
+
+\begin{figure}\label{bal}
+
+\end{figure}
 
 % Describe system 
-
 % Describe taking data
+Since we are going to measure the precise oscillations of the rotational element and the force of gravity is a very strong force, shaking the experiment will result in measurements that are far off the desired values. 
+Because of this, you must set up the experiment to run in a room that will be clear and free of disturbances for the duration of data acquisition.
+We placed the experiment on a table in an isolated room in a box of sand with a plank on top to remove any extra environmental disturbances.  
+Remove both glass panels and place both smaller masses on the rotational element at the same time and ensure that the filament is at a level and centered that the element can move freely. 
+Stabilize the masses and replace the glass plates.
+Then center the outer rod perpendicular to the glass plates and place both larger masses in their holders.
+Start recording data to get a baseline oscillation for the perpendicular masses.
+After receiving enough data to determine a fit of the graph, slowly and calmly swing the two larger masses to one side and take enough data to determine the new fit.
+Swing the large masses to the other side of the glass and take data for a third and final time to determine a new fit. 
+Lastly, determine the voltage values for the extreme values of the rotational element by swinging the bar to touch the glass on either side. 
 
 
 \section{Data Analysis}
 % Explain the Results 
+Table \ref{measure} contains all of the constant values measured.
+
+\begin{figure}\label{measure}
+\begin{tabular}{ |c|c| } 
+\hline
+\multicolumn{2}{|c|}{Constants}
+\hline
+I [$kg\cdot m^2] & 1400.9847  \\ 
+r [m] & cell5 \\ 
+cell7 & cell8  \\ 
+\hline
+\end{tabular}
+\end{figure}
 
 
 \section{Conclusion}
